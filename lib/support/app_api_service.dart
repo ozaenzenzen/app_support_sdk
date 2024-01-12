@@ -1,6 +1,6 @@
+import 'package:app_support_sdk/support/app_connectivity_service.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:project_office_monitoring_app/support/app_connectivity_service.dart';
 
 enum MethodRequest { post, get, put, delete }
 
