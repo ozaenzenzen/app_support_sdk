@@ -36,7 +36,7 @@ class AppTextFieldWidget extends StatefulWidget {
     this.prefixIcon,
     this.obscureText = false,
     this.filled = true,
-    this.fillColor = AppColor.shape_3,
+    this.fillColor,
     this.border,
     this.radius,
   }) : super(key: key);
@@ -93,7 +93,7 @@ class _AppTextFieldWidgetState extends State<AppTextFieldWidget> {
                     ),
                     decoration: InputDecoration(
                       filled: widget.filled,
-                      fillColor: widget.fillColor,
+                      fillColor: widget.fillColor ?? AppColor.shape_3,
                       suffixIcon: widget.suffixIcon,
                       prefixIcon: widget.prefixIcon,
                       contentPadding: EdgeInsets.all(10.h),

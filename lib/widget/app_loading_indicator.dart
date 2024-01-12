@@ -11,7 +11,7 @@ class AppLoadingIndicator extends StatelessWidget {
       alignment: Alignment.center,
       height: 40.h,
       width: 40.h,
-      child: const CircularProgressIndicator(
+      child: CircularProgressIndicator(
         color: AppColor.primary,
       ),
     );
